@@ -1,13 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Programming</title>
-</head>
-<body>
-    <h1>Programming</h1>
-    <h2>Language name</h2>
-    <img src="img/html.png" alt="HTML" width="400" height="400">
-</body>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header id="home" class="header">
+      <div class="header__content">
+        <div class="header__light">
+          <div class="header__general-photo">
+            <img
+              src="img/general.jpg"
+              alt="The image shows three people sitting around a laptop. A laptop sits on a wooden surface and one person points to the screen, perhaps showing something important or interesting. The other two watch the screen intently. All three are shown only from the waist down, with arms and hands visible. One person is wearing jeans with holes in them, another is wearing a gray sweater, and the third person's clothing is not fully visible."
+            />
+          </div>
+          <nav class="header__nav bar">
+            <div class="header__menu menu">
+              <a href="index.html" class="menu__element">Home</a>
+              <a href="#product" class="menu__element">Product</a>
+              <a href="#pircing" class="menu__element">Pircing</a>
+              <a href="#about" class="menu__element">About</a>
+              <a href="#contact" class="menu__element">Contact</a>
+            </div>
+            <div class="header__logo">
+              <img src="img/logo-light.png" alt="Logo" />
+            </div>
+            <div class="header__social-icons">
+              <a class="header__social-link" href="https://twitter.com/">
+                <svg
+                  width="34"
+                  height="28"
+                  viewBox="0 0 34 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M33.6845 3.68535C32.4597 4.2137 31.1269 4.59394 29.754 4.74204C31.1793 3.89523 32.2467 2.55742 32.7559 0.979599C31.4184 1.77527 29.9531 2.33321 28.4251 2.62867C27.7865 1.94593 27.0141 1.40203 26.156 1.03086C25.298 0.659692 24.3727 0.469204 23.4379 0.471269C19.6554 0.471269 16.6134 3.53726 16.6134 7.2997C16.6134 7.82804 16.6775 8.35639 16.7815 8.86472C11.1179 8.56852 6.0666 5.86277 2.70842 1.72008C2.09652 2.76522 1.77587 3.95523 1.77981 5.16632C1.77981 7.53585 2.9846 9.62521 4.82179 10.854C3.7391 10.8114 2.68177 10.5138 1.73579 9.98544V10.0695C1.73579 13.3876 4.08131 16.1374 7.20734 16.7698C6.62039 16.9223 6.01659 17.0003 5.41017 17.002C4.96588 17.002 4.54561 16.958 4.12133 16.8979C4.98589 19.6037 7.50353 21.569 10.5015 21.633C8.15595 23.4702 5.21805 24.5509 2.02798 24.5509C1.4556 24.5509 0.927262 24.5309 0.378906 24.4668C3.40487 26.4081 6.9952 27.5288 10.8617 27.5288C23.4139 27.5288 30.2823 17.1301 30.2823 8.10422C30.2823 7.80803 30.2823 7.51184 30.2623 7.21565C31.5912 6.24301 32.7559 5.03823 33.6845 3.68535Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+              <a class="header__social-link" href="https://facebook.com/">
+                <svg
+                  width="33"
+                  height="34"
+                  viewBox="0 0 33 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M30.7517 0.989624H1.29255C0.58409 0.989624 0.0117188 1.562 0.0117188 2.27046V31.7296C0.0117188 32.438 0.58409 33.0104 1.29255 33.0104H30.7517C31.4601 33.0104 32.0325 32.438 32.0325 31.7296V2.27046C32.0325 1.562 31.4601 0.989624 30.7517 0.989624ZM27.0533 10.3357H24.4956C22.4903 10.3357 22.1021 11.2883 22.1021 12.6892V15.7752H26.8892L26.2648 20.6064H22.1021V33.0104H17.1108V20.6104H12.9361V15.7752H17.1108V12.2129C17.1108 8.07822 19.6365 5.82476 23.3268 5.82476C25.096 5.82476 26.613 5.95685 27.0573 6.01689V10.3357H27.0533Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+              <a class="header__social-link" href="https://linkedin.com/">
+                <svg
+                  width="33"
+                  height="34"
+                  viewBox="0 0 33 34"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M30.736 0.989624H1.27692C0.568465 0.989624 -0.00390625 1.562 -0.00390625 2.27046V31.7296C-0.00390625 32.438 0.568465 33.0104 1.27692 33.0104H30.736C31.4445 33.0104 32.0169 32.438 32.0169 31.7296V2.27046C32.0169 1.562 31.4445 0.989624 30.736 0.989624ZM9.49426 28.2753H4.74317V12.9934H9.49426V28.2753ZM7.12072 10.9041C6.57607 10.9041 6.04365 10.7425 5.59079 10.44C5.13794 10.1374 4.78498 9.70729 4.57655 9.2041C4.36812 8.70091 4.31359 8.14722 4.41984 7.61303C4.5261 7.07885 4.78837 6.58817 5.1735 6.20305C5.55862 5.81792 6.0493 5.55565 6.58348 5.4494C7.11766 5.34314 7.67136 5.39768 8.17455 5.6061C8.67773 5.81453 9.10782 6.16749 9.41041 6.62035C9.713 7.07321 9.8745 7.60562 9.8745 8.15027C9.8705 9.67126 8.6377 10.9041 7.12072 10.9041ZM27.2818 28.2753H22.5347V20.8425C22.5347 19.0694 22.5027 16.7919 20.0651 16.7919C17.5955 16.7919 17.2153 18.7211 17.2153 20.7144V28.2753H12.4722V12.9934H17.0271V15.0828H17.0912C17.7236 13.882 19.2726 12.6132 21.5861 12.6132C26.3972 12.6132 27.2818 15.7792 27.2818 19.8939V28.2753Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+          </nav>
+
+          <div class="container__hero-light">
+            <div class="container__hero hero">
+              <div class="hero__text text">
+                <h1 class="text__title">The best products start with Figma</h1>
+              </div>
+              <div class="hero__text text">
+                <h4 class="text__paragraph">
+                  Most calendars are designed for teams. Slate is designed for
+                  freelancers
+                </h4>
+              </div>
+            </div>
+            <div class="container__button">
+              <a class="container__button button" href="#">Try For Free</a>
+            </div>
+          </div>
+          <div class="header__content content">
+            <div class="content__text">
+              <h2 class="content__text-main">Features</h2>
+            </div>
+            <div class="content__text">
+              <h4 class="content__text-minor">
+                Most calendars are designed for teams. Slate is designed for
+                freelancers
+              </h4>
+            </div>
+          </div>
+          <div class="header__items items">
+            <div class="items__row">
+              <div class="items__row-first">
+                <div class="items__row-first-image">
+                  <a class="row__first-image">
+                    <svg
+                      width="61"
+                      height="61"
+                      viewBox="0 0 61 61"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M21.6042 7.625C25.3117 7.625 28.8673 9.0978 31.4889 11.7194C34.1105 14.341 35.5833 17.8967 35.5833 21.6042C35.5833 24.9846 34.3888 28.0854 32.3808 30.5H53.375V53.375H30.5V32.3808C28.0854 34.3888 24.9846 35.5833 21.6042 35.5833C17.8967 35.5833 14.341 34.1105 11.7194 31.4889C9.0978 28.8673 7.625 25.3117 7.625 21.6042C7.625 17.8967 9.0978 14.341 11.7194 11.7194C14.341 9.0978 17.8967 7.625 21.6042 7.625Z"
+                        fill="#2091F9"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="items__row-text">
+                  <h3 class="row__text-title">
+                    OpenType features Variable fonts
+                  </h3>
+                </div>
+                <div class="items__row-text">
+                  <p class="row__text-paragraph">
+                    Slate helps you see how many more days you need to work to
+                    reach your financial goal.
+                  </p>
+                </div>
+              </div>
+              <div class="items__row-second">
+                <div class="items__row-second-image">
+                  <a class="second-image">
+                    <svg
+                      width="45"
+                      height="42"
+                      viewBox="0 0 45 42"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18.2486 41.65C22.402 40.0167 21.492 35.5134 19.392 32.6667C17.3153 29.75 14.4453 27.7434 11.552 25.8067C9.48756 24.5055 7.64432 22.8829 6.09197 21C5.43863 20.23 4.10863 18.8067 5.46197 18.5267C6.83863 18.2467 9.21863 19.6 10.432 20.1134C12.5553 21 14.6553 22.0267 16.6153 23.24L18.972 19.2734C15.332 16.87 10.6653 14.7467 6.3253 14.1167C3.85197 13.7434 1.23863 14.2567 0.398634 16.94C-0.348033 19.25 0.841967 21.5834 2.1953 23.4034C5.39197 27.6734 10.362 29.7267 14.072 33.4134C14.8653 34.1834 15.822 35.0934 16.2886 36.1667C16.7786 37.1934 16.662 37.2634 15.5653 37.2634C12.672 37.2634 9.0553 35 6.69864 33.5067L4.34197 37.4734C7.91197 39.6667 13.8853 43.0967 18.2486 41.65ZM44.1253 5.25004C44.6386 4.7367 44.6386 3.8967 44.1253 3.4067L41.092 0.373369C40.8476 0.137831 40.5214 0.00622559 40.182 0.00622559C39.8425 0.00622559 39.5164 0.137831 39.272 0.373369L36.892 2.75337L41.7453 7.6067L44.1253 5.25004ZM21.1653 18.48V23.3334H26.0186L40.3686 8.98337L35.5153 4.13004L21.1653 18.48Z"
+                        fill="#2091F9"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="items__row-text">
+                  <h3 class="row__text-title">Design with real data</h3>
+                </div>
+                <div class="items__row-text">
+                  <p class="row__text-paragraph">
+                    Slate helps you see how many more days you need to work to
+                    reach your financial goal.
+                  </p>
+                </div>
+              </div>
+              <div class="items__row-third">
+                <div class="items__row-third-image">
+                  <a class="third-image">
+                    <svg
+                      width="49"
+                      height="47"
+                      viewBox="0 0 49 47"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M47.6366 4.76792L44.2308 1.36209C43.2904 0.37084 41.6383 0.37084 40.647 1.36209L17.8737 24.1354L24.8633 31.125L47.6366 8.35167C48.6279 7.36042 48.6279 5.70834 47.6366 4.76792ZM12.7904 28.5833C10.7681 28.5833 8.82864 29.3867 7.39868 30.8167C5.96871 32.2466 5.16536 34.1861 5.16536 36.2083C5.16536 39.5379 2.21703 41.2917 0.0820312 41.2917C2.42036 44.3925 6.4362 46.375 10.2487 46.375C12.9451 46.375 15.531 45.3039 17.4376 43.3973C19.3442 41.4906 20.4154 38.9047 20.4154 36.2083C20.4154 34.1861 19.612 32.2466 18.1821 30.8167C16.7521 29.3867 14.8126 28.5833 12.7904 28.5833Z"
+                        fill="#2091F9"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="items__row-text">
+                  <h3 class="row__text-title">Fastest way to take action</h3>
+                </div>
+                <div class="items__row-text">
+                  <p class="row__text-paragraph">
+                    Slate helps you see how many more days you need to work to
+                    reach your financial goal.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__screen-content">
+          <div class="screen__content-video">
+            <div class="content__video-button">
+              <a class="video__button-icon" href="#">
+                <img class="button__icon-photo" width="187.4" src="img/button-icon.svg" alt="Play icon">
+              </a>
+            </div>
+            <div class="content__video video">
+              <img
+                src="img/screen_content.jpeg"
+                alt="The image shows a person standing by a window holding and looking down at a blue folder or folder. The man is wearing a purple shirt and his face is hidden by a brown rectangle to preserve anonymity. The background suggests that this is an interior space with natural light coming through the window."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- <section data-include="products.partial.html"></section> -->
+      <!-- <footer data-include="footer.partial.html"></footer> -->
+    </main>
+
+    <footer class="footer"></footer>
+  </body>
 </html>
