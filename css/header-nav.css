@@ -1,0 +1,264 @@
+/* Контейнер навігації */
+.header__navbar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1210px;
+    height: 156px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.menu-list__item-home,
+.menu-list__item-product,
+.menu-list__item-pricing,
+.menu-list__item-about,
+.menu-list__item-contact {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63px;
+    height: 48px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.menu__element-home,
+.menu__element-product,
+.menu__element-pricing,
+.menu__element-about,
+.menu__element-contact {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Graphik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* Меню  */
+.header__menu {
+    display: flex;
+    align-items: center;
+    width: 437px;
+    height: 48px;
+    position: absolute;
+    top: 53.5px;
+    left: 40px;
+    gap: 21px;
+}
+
+.header__menu-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.menu-list__item-home,
+.menu-list__item-product,
+.menu-list__item-pricing,
+.menu-list__item-about,
+.menu-list__item-contact {
+    list-style: none;
+}
+
+.menu__element-home,
+.menu__element-product,
+.menu__element-pricing,
+.menu__element-about,
+.menu__element-contact {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu-list__item-home {
+    width: 63px;
+    height: 48px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.menu-list__item-product {
+    width: 77px;
+    height: 48px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.menu-list__item-pricing {
+    width: 71px;
+    height: 48px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.menu-list__item-about {
+    width: 64px;
+    height: 48px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.menu-list__item-contact {
+    width: 78px;
+    height: 48px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.menu__element-home {
+    width: 43px;
+    height: 28px;
+    font-family: 'Graphik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.menu__element-product {
+    width: 57px;
+    height: 28px;
+    font-family: 'Graphik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.menu__element-pricing {
+    width: 51px;
+    height: 28px;
+    font-family: 'Graphik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.menu__element-about {
+    width: 44px;
+    height: 28px;
+    font-family: 'Graphik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.menu__element-contact {
+    width: 58px;
+    height: 28px;
+    font-family: 'Graphik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+
+/*
+.header__menu-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.menu-list__item {
+    list-style: none;
+}
+
+.menu__element {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu__element:hover {
+    color: #007bff;
+}
+*/
+
+
+
+
+
+
+
+/* Логотип */
+.header__logo {
+    display: flex;
+    align-items: center;
+    width: 246px;
+    height: 78px;
+    top: 39px;
+    left: 482.5px;
+    padding: 0 20 0 20;
+}
+
+.header__logo-link {
+    text-decoration: none;
+}
+
+.header__logo-image {
+    height: 40px;
+}
+
+
+/* Соціальні мережі */
+.header__social-container {
+    display: flex;
+    align-items: center;
+}
+
+.header__social {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.social-list__item {
+    list-style: none;
+}
+
+.header__social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header__social-link:hover {
+    color: #007bff;
+}

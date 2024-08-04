@@ -1,3 +1,6 @@
+@import url(header-nav.css);
+@import url(index.header-general.css);
+
 body {
     background-color: rgb(189, 142, 142);
 }
