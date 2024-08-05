@@ -1,5 +1,16 @@
 @import url(header-nav.css);
 @import url(index.header-general.css);
+@import url(index.business-content.css);
+@import url(index.business-items.css);
+@import url(index.business-video.css);
+@import url(index.business-recomendation.css);
+@import url(index.business-postcard.css);
+@import url(index.business-partners.css);
+@import url(index.business-testimonials.css);
+@import url(index.business-pricing.css);
+@import url(index.business-contact-us.css);
+@import url(footer-menu.css);
+
 
 body {
     background-color: rgb(207, 163, 163);
